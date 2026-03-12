@@ -42,10 +42,10 @@
   
 ```luau
 for i = 1,#plrs do
-		local num = math.random(1,4) -- Change this to how much teleports part you have ex: math.random(1,5)
-		plrs[i].Character.Head.CFrame = CFrame.new(workspace.Teleports["Part"..num].Position)
-		plrs[i].Character.Parent = workspace.Ingame
-	end
+	local num = math.random(1,4) -- Change this to how much teleports part you have ex: math.random(1,5)
+	plrs[i].Character.Head.CFrame = CFrame.new(workspace.Teleports["Part"..num].Position)
+	plrs[i].Character.Parent = workspace.Ingame
+end
 ```
 
 - Copy and Paste the IntermissionClient code to the LocalScript inside the Textlabel in ScreenGui
